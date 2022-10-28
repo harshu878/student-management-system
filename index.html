@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        .navbar
+        {
+            height: 60px;
+            display: flex;
+            justify-content:space-around;
+            background-color: rgb(250, 250, 250);
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        }
+        a{
+            
+            text-decoration: none;
+            color: black;
+            font-size: 15px;
+            margin-top: -10px;
+        }
+        h1
+        {
+            text-align: center;
+        }
+        form
+        {
+            width: 30%;
+            height: 300px;
+            margin: auto;
+            background-color: rgb(255, 255, 255);
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            padding: 40px;
+        }
+        form > input
+        {
+            width: 80%;
+            margin-left: 8%;
+            margin-top: 10px;
+            height: 30px;
+        }
+        select
+        {
+            width: 82%;
+            height: 35px;
+            margin-left: 8%;
+            margin-top: 10px;
+        }
+        form>input:last-child
+        {
+            width: 82%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="./index.html">
+            <h1>Add Students</h1>
+        </a>
+        <a href="./students.html">
+            <h1>Students Database</h1>
+        </a>
+        <a href="./admitted.html">
+            <h1>Admitted</h1>
+        </a>
+        <a href="./rejected.html">
+            <h1>Rejected</h1>
+        </a>
+    </div>
+    <h1>Fill this form for admission in Masai School</h1>
+    <form id="form">
+        <input placeholder="Name" type="text" id="name">
+        <input placeholder="Email" type="email" id="email">
+        <input placeholder="Phone Number" type="number" id="phone">
+        <select id="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+        <select id="course">
+            <option value="Web-Development">Web-Development</option>
+            <option value="Android-Development">Android-Development</option>
+            <option value="Data-Analitics">Data-Analitics</option>
+        </select>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+<script src="./index.js"></script>
+
+</html>
