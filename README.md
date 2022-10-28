@@ -22,10 +22,12 @@ This Project was given by [Masai School](https://github.com/masai-course) in uni
 
 ## Run Locally
 
-Clone the project
+Clone the project:-
 
 ```bash
   git clone https://github.com/harshu878/student-management-system.git
 ```
+Live website link:-
 
+https://harshu878.github.io/student-management-system/
 
