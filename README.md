@@ -1,6 +1,6 @@
 # studentManagementSystem
 
-This is a Student Management System, a simple CRUD application where you can add student details and You can also manage student database in your browser's local storage
+This is a Student Management System, a CRUD application where you can add student details and You can also manage student database in your browser's local storage
 This Project was given by [Masai School](https://github.com/masai-course) in unit 2.
 
 
