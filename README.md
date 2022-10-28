@@ -17,7 +17,7 @@ This Project was given by [Masai School](https://github.com/masai-course) in uni
 - Students Database 
 - Local storage 
 - CRUD
-
+- Filters
 
 
 ## Run Locally
